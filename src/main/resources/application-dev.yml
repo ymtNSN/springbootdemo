@@ -1,5 +1,13 @@
 server:
-  port: 8088
-#spring:
-#  thymeleaf:
-#    prefix: classpath:/templates/
+  port: 8099
+  # tomcat的URI编码
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  #  thymeleaf:
+  #    prefix: classpath:/templates/
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
