@@ -3,6 +3,8 @@ server:
   # tomcat的URI编码
   tomcat:
     uri-encoding: UTF-8
+    max-http-post-size: 8192
+
 spring:
   #  thymeleaf:
   #    prefix: classpath:/templates/
