@@ -62,6 +62,7 @@ public class HaoDiaoYuController {
                 }
             }
             httpResponse = httpService.httpGet(signUrl.replace("{formhash}", formhash), cookie);
+            httpResponse = httpService.httpGet(signHtmlUrl, cookie);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
