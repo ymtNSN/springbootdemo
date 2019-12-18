@@ -1,4 +1,4 @@
-package com.ymt.springbootdemo.websocket.web;
+package com.ymt.springbootdemo.web;
 
 import com.ymt.springbootdemo.utility.QRCodeUtil;
 import org.springframework.stereotype.Controller;
